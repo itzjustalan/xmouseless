@@ -5,14 +5,14 @@ static const unsigned int move_rate = 60;
 
 /* the default speed of the mouse pointer
  * in pixels per second */
-static const unsigned int default_speed = 800;
+static const unsigned int default_speed = 400;
 
 /* changes the speed of the mouse pointer */
 static SpeedBinding speed_bindings[] = {
     /* key             speed */  
     { XK_f,            3000 },
-    { XK_Alt_L,        50 },
-    { XK_Control_L,    10   },
+    { XK_Alt_L,        10 },
+    { XK_Control_L,    50   },
 };
 
 /* moves the mouse pointer
